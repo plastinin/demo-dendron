@@ -1,0 +1,11 @@
+version: 1
+imports: []
+schemas:
+  - id: Производство
+    title: Производство
+    parent: root
+    children:
+      - pattern: '*'
+        template:
+          id: 'Шаблоны.Стандарт'
+          type: note 
